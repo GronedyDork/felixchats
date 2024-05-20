@@ -1,0 +1,46 @@
+@keyframes bg-plank {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+}
+.content {
+    margin: 0vw 6vw;
+    padding: 1vw 2vw;
+    background-color: #b27120;
+}
+.bg-plank {
+    background: url(../assets/images/plank.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-color: #b27120;
+    animation-name: bg-plank;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: black;
+}
+header {
+    margin: 0;
+    padding: 1.5vw;
+    font-size: x-large;
+    color: black;
+}
+footer a {
+    color: #372309;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #603d11;
+}
+footer a:hover, footer a:active {
+    color: #eecba1;
+}
+footer {
+    margin: 0;
+    padding: 1.5vw;
+    font-size: larger;
+    color: black;
+}

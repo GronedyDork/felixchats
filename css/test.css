@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    background: url(../assets/images/bendy.jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: bg 15s linear infinite;
+}
+@keyframes bg {
+    from {background-position: 0 0;}
+    to {background-position: 0 100%;}
+}
